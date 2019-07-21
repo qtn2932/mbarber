@@ -16,7 +16,7 @@ class Nagivation extends React.Component {
     render() {
         return (
             <div>
-                <Navbar bg="light" variant="light" fixed='top'>
+                <Navbar className="navbar" bg="light" variant="light" fixed='top'>
                     <Image src={logo} className="logo" />
                     <Nav className="mr-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
